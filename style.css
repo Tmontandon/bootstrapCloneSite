@@ -1,0 +1,52 @@
+.side-flex {
+  display: flex !important;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.fs-8 {
+  font-size: 7pt;
+  height: 5vh;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.circles {
+  display: flex;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.py-8 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.black {
+  background-color: black;
+}
+
+.btnp {
+  margin-top: 0;
+}
+
+.lightgrey {
+  background-color: lightgray;
+}
+
+.spacer {
+  background-color: grey;
+  height: 2vh;
+
+}
+
+.done {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

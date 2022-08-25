@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="dbug">
+
+  <header>
+    <!-- SECTION Heading -->
+    <div class="container-fluid">
+      <section class="row  justify-content-around lightgrey">
+        <div class="col-4 side-flex">
+          <i class="mdi mdi-cat fs-1">
+          </i>
+        </div>
+        <div class="col-8 d-flex flex-row justify-content-between">
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">WORK</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">ABOUT</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">EXPERTISE</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">BLOG</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">STORE</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">CONTACT</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <div class="spacer"></div>
+  <main>
+    <!-- SECTION First Large Box -->
+    <div class="container-fluid coral">
+      <section class="row justify-content-end ">
+        <div class="col-4 py-8">
+          <h2>Lorem ipsum.</h2>
+          <p class="fs-6">Lorem ipsum dolor sit amet consectetur.</p>
+          <div class="circles">
+            <i class="mdi mdi-circle-outline"></i>
+            <i class="mdi mdi-circle-outline"></i>
+            <i class="mdi mdi-circle-outline"></i>
+            <i class="mdi mdi-circle-outline"></i>
+            <i class="mdi mdi-circle-outline"></i>
+            <i class="mdi mdi-circle"></i>
+          </div>
+        </div>
+        <div class="col-6"></div>
+      </section>
+
+      <div class="row spacer"></div>
+      <!-- SECTION Second Large Box-->
+      <section class="row justify-content-center py-5 fs-3 black">
+        <div class="col-7 d-flex justify-content-between text-light">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam hic eius enim omnis cum ipsum soluta!
+          Corrupti
+          sequi fugiat officiis quos voluptas molestias ad quisquam inventore quas, totam voluptatem omnis.
+        </div>
+      </section>
+
+      <!-- SECTION Last Large Box -->
+      <section class="row lightgrey p-5">
+        <div class="d-flex justify-content-around">
+          <div class="col-2">
+            <img src="https://thiscatdoesnotexist.com" alt="cat" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-2">
+            <img src="https://thiscatdoesnotexist.com" alt="cat" class="img-fluid">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid culpa maxime facere.</p>
+          </div>
+          <div class="col-2">
+            <img src="https://thiscatdoesnotexist.com" alt="cat" class="img-fluid">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
+
+  <footer class="black">
+    <div class="container-fluid p-3">
+      <section class="row done">
+        <div class="col-4 side-flex">
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">WORK</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">ABOUT</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">EXPERTISE</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">BLOG</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">STORE</p>
+            </button>
+          </div>
+          <div class="side-flex align-items-center">
+            <button class="btn btn-light fs-8">
+              <p class="btnp">CONTACT</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-2 p-3 fs-8 text-light">
+          <p class="align-items-center text-light" style="
+              margin-bottom: 0px;
+          ">208.123.1234</p>
+          <p>1234@gmail.com</p>
+        </div>
+        <div class="col-2 p-3 fs-8 text-light ">
+          <p class="text-light" style="
+              margin-bottom: 0px;
+          ">1234 Lorem, ipsum.</p>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+
+</html>
